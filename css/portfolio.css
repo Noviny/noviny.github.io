@@ -1,5 +1,91 @@
 body {
-  text-align: center;
-  background-color: purple;
-  color: white;
+  background-color: #336b87;
+  margin: 0;
+  color: #2a3132;
 }
+
+.nav-top {
+  background-color: #763626;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.nav-top li {
+  display: inline-block;
+/*  background-color: #763626;
+*/  
+}
+
+.nav-top a {
+  display: block;
+  width: 60px;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+  color: #2a3132;
+}
+
+.nav-top a:hover {
+  background-color: #905040;
+}
+
+#bars {
+  height: 800px;
+  overflow: hidden;
+  display: inline-block;
+  width: 90%;
+}
+
+#contact {
+  font-size: 1.5rem;
+}
+
+#contact, #skills{
+  background-color: #90afc5;
+  width: 40%;
+  height: 700px;
+  padding: 1rem;
+  border: solid #2a3132 2px;
+  margin: 2rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/*#skills {
+  background-color: #90afc5;
+  width: 40%;
+}*/
+
+
+
+
+/*2 subdued and professional
+Mist: 90afc5
+Stone: 336b87
+Shadow: 2a3132
+Autumn foliage: 763626*/
+
+/*97 Urban Living
+soft grey dddede
+blackish 232122
+houseplant a5c05b
+blue-grey 7ba4a8*/
+
+/*30 berry blues*/
+
+/*54 Modern and Urban
+
+57 Sun and Sky
+
+62 classy and timeless
+
+69 understated and versatile
+
+81 warm and cool
+
+82 industrial in control
+
+86 subtle and versatile
+
+94 exotic and high impact*/
