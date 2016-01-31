@@ -1,15 +1,33 @@
 body {
-  background-color: #336b87;
+  background-color: #335252;
   margin: 0;
-  color: #2a3132;
+  color: #2d3033;
 }
 
 .nav-top {
-  background-color: #763626;
+  background-color: #aa4b41;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
+
+.nav-sidebar {
+  background-color: #aa4b41;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-sidebar li {
+  display: inline-block;
+/*    display: block;
+*/  width: 32%;
+  text-align: center;
+  padding: 1rem 0rem;
+  text-decoration: none;
+  color: #d4dde1;
+}
+
 .nav-top li {
   display: inline-block;
 /*  background-color: #763626;
@@ -22,7 +40,12 @@ body {
   text-align: center;
   padding: 1em;
   text-decoration: none;
-  color: #2a3132;
+  color: #d4dde1;
+}
+
+.nav-sidebar ul {
+  padding: 0;
+  margin: 0;
 }
 
 .nav-top a:hover {
@@ -32,8 +55,8 @@ body {
 #bars {
   height: 800px;
   overflow: hidden;
-  display: inline-block;
-  width: 90%;
+  width: 85%;
+  margin: auto;
 }
 
 #contact {
@@ -41,51 +64,46 @@ body {
 }
 
 #contact, #skills{
-  background-color: #90afc5;
-  width: 40%;
+  background-color: #d4dde1;
+  width: 43%;
   height: 700px;
-  padding: 1rem;
-  border: solid #2a3132 2px;
-  margin: 2rem;
-  display: inline-block;
+/*  border: solid #2a3132 2px;
+*/  display: inline-block;
   vertical-align: top;
 }
 
 
-/*#skills {
-  background-color: #90afc5;
-  width: 40%;
-}*/
+#contact {
+  margin-right: 3%
+}
+
+#skills {
+  float: right;
+}
 
 
+h1 {
+  text-align: center;
+  color: #d4dde1;
+}
 
+h2 {
+  margin: 0;
+  text-align: center;
+  color: #d4dde1;
+  padding: 0.3rem;
+}
 
-/*2 subdued and professional
-Mist: 90afc5
-Stone: 336b87
-Shadow: 2a3132
-Autumn foliage: 763626*/
+/*Colour options:
 
-/*97 Urban Living
-soft grey dddede
-blackish 232122
-houseplant a5c05b
-blue-grey 7ba4a8*/
+Modern Urban
+sunshine (highlight) f9ba32
+steel blue (background) 426e86
+bone (text) f8f1e5
+coal (div) 2f3131*/
 
-/*30 berry blues*/
-
-/*54 Modern and Urban
-
-57 Sun and Sky
-
-62 classy and timeless
-
-69 understated and versatile
-
-81 warm and cool
-
-82 industrial in control
-
-86 subtle and versatile
-
-94 exotic and high impact*/
+/*San Fran bridge
+Stormy Sea (background) 335252
+fog (text) d4dde1
+rust (highlight) aa4b41
+charcoal (div) 2d3033*/
