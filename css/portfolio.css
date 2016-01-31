@@ -7,8 +7,9 @@ body {
 .nav-top {
   background-color: #aa4b41;
   margin: 0;
-  padding: 0;
   list-style-type: none;
+  text-align: center;
+  color: #d4dde1;
 }
 
 .nav-sidebar {
@@ -30,6 +31,7 @@ body {
 
 .nav-top li {
   display: inline-block;
+  padding: 0 1rem;
 /*  background-color: #763626;
 */  
 }
@@ -53,45 +55,77 @@ body {
 }
 
 #bars {
-  height: 800px;
+  height: 650px;
   overflow: hidden;
   width: 85%;
   margin: auto;
-}
-
-#contact {
-  font-size: 1.5rem;
 }
 
 #contact, #skills{
   background-color: #d4dde1;
   width: 43%;
   height: 700px;
-/*  border: solid #2a3132 2px;
-*/  display: inline-block;
+  display: inline-block;
   vertical-align: top;
 }
 
 
 #contact {
-  margin-right: 3%
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#contact ul {
+  list-style-type: none;
+  padding: 0;
+  height: 100%;
+}
+
+#contact li {
+  height: 15%;
+  vertical-align: middle;
 }
 
 #skills {
   float: right;
 }
 
+#skills ul {
+  list-style-type: none;
+  padding: 0;
+}
 
-h1 {
+#info {
+  padding: 0 2rem;
+}
+
+#info li {
+  display: inline-block;
+}
+
+h3 {
   text-align: center;
   color: #d4dde1;
+  margin: 2rem 0;
 }
 
 h2 {
   margin: 0;
   text-align: center;
-  color: #d4dde1;
   padding: 0.3rem;
+  color: #d4dde1;
+}
+
+h1 {
+  margin: 0.7rem 0;
+}
+
+#skills h3, #skills h2 {
+  color: #2d3033;
+}
+
+a {
+  color: #aa4b41;
 }
 
 /*Colour options:
