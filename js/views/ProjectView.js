@@ -7,7 +7,7 @@ app.ProjectView = Backbone.View.extend({
   el: "#projectList",
 
   events: {
-    'click a': 'displayProject'
+    'click .expand-project': 'displayProject'
   },
 
   displayProject: function (e) {

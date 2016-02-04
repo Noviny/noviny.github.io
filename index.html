@@ -50,8 +50,9 @@
 <script src="#" type="html/template" id="aboutMeTemplate">
   <div id="about">
     <h2>Hi! I'm Ben</h2>
-    <p>I am a full stack developer based in Sydney, coming out of doing General Assembly's Web Development Immersive course.</p>
-    <p>I love solving interesting problems in elegant ways, learning, and helping other learn, and have a background in philosophy and fiction writing.</p>
+    <p>I am a full stack developer based in Sydney, coming out of doing General Assembly's Web Development Immersive course, and looking for a full time junior developer role.</p>
+    <p>I love solving interesting problems in elegant ways, learning, and helping other learn, and getting to apply these abilities to programming has been an absolute delight. I am looking forward to learn even more about programming.</p>
+    <p>I have a background in philosophy and fiction writing, which allowed me to express my passions for logic and for words,  and have worked as content manager for website, from where I decided that I wanted to learn programming formally to commit to working on the internet in the most meaningful way possible.</p>
     <div class="skill-list">
       <div class="six columns skill-list" id="frontend">
         <h4>Front End</h4>
@@ -61,6 +62,7 @@
           <li>Javascript</li>
           <li>jQuery</li>
           <li>Backbone</li>
+          <li>Underscore</li>
         </ul>
       </div>
       <div class="six columns skill-list" id="backend">
@@ -84,20 +86,22 @@
 <script src="#" type="html/template" id="projects-template">
   <div id="projectList">
     <ul>
-      <li class="project-link"><a href="#" id="winlanewingame"> Win Lane, Win Game</a></li>
-      <li class="project-link"><a href="#" id="bookmarksplus">Bookmarks+</a></li>
-      <li class="project-link"><a href="#" id="moneyistime">Money is Time</a></li>
-      <li class="project-link"><a href="#" id="socialview">SocialView</a></li>
-      <li class="project-link"><a href="#" id="jsjargon">JS Jargon</a></li>
-      <li class="project-link"><a href="#" id="">Final Project</a></li>
+      <li class="project-link"><a href="#" class="expand-project"id="winlanewingame"> Win Lane, Win Game</a></li>
+      <li class="project-link"><a href="#" class="expand-project"id="bookmarksplus">Bookmarks+</a></li>
+      <li class="project-link"><a href="#" class="expand-project"id="moneyistime">Money is Time</a></li>
+      <li class="project-link"><a href="#" class="expand-project"id="socialview">SocialView</a></li>
+      <li class="project-link"><a href="#" class="expand-project"id="jsjargon">JS Jargon</a></li>
+      <li class="project-link"><a href="#" class="expand-project"id="">Final Project</a></li>
     </ul>
   </div>
 </script>
 
 <script src="#" type="html/template" id="project-template">
   <div id="<%= name %>" class="project">
-    <a href="<%= url %>"><%= name %></a>
+    <a href="<%= url %>">See the Code</a> - <a href="#">see the site</a>
     <p><%= screenshot %></p>
+    <h4>What?</h4>
+    <p><%= what %></p>
     <h4>Why?</h4>
     <p><%= why %></p>
     <h4>Key Lesson</h4>

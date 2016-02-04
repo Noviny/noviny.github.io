@@ -55,13 +55,21 @@ h2, p {
 }
 
 .project-link {
-  border: 1px solid #2d3033;
+  border-bottom: 3px solid #aa4b41;
+  display: inline-block;
+  width: 50%;
+  float: left;
 }
 
-.project-link a {
-  display: block;
-/*  background: pink;
-*/}
+.expand-project {
+  display:block;
+  height: 25vh;
+  padding-top: 10vh;
+  background-image: url("https://placebear.com/g/200/300");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center
+}
 
  /*Setting up the navigation bar*/
 .nav-sidebar {
@@ -102,8 +110,15 @@ h2, p {
 
 #col-right li {
   text-align: left;
-  padding-left: 3rem;
+/*  padding-left: 5rem;
+*/}
+
+#col-right ul {
+  text-align: left;
+  padding-left: 5rem;
+  padding-top: 2rem;
 }
+
 
 #col-right h4 {
   text-align: center;
@@ -113,10 +128,15 @@ h2, p {
   color: #d4dde1;
 }
 
-#col-main {
+#col-main, #col-right {
   min-height: 80vh;
 }
 
 .project {
   overflow: hidden;
+}
+
+#projectList ul {
+  padding: 0;
+  margin: 0;
 }
