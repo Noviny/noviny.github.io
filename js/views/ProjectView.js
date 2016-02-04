@@ -14,6 +14,14 @@ app.ProjectView = Backbone.View.extend({
     e.preventDefault();
     console.log("YAMS");
 
+    $(".project").animate({
+      height: "0px"
+    }, 200, function () {
+      $(this).remove();
+    });
+
+
+
     var project = $(e.currentTarget).attr('id');
 
     // var applyTemplateTo = 'app.projectData.' + project

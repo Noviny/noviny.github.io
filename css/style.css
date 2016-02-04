@@ -1,6 +1,6 @@
 * {
-font-family: 'Sorts Mill Goudy', serif;
-box-sizing: border-box;
+  font-family: 'Sorts Mill Goudy', serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,6 +11,12 @@ body {
 
 a {
   color: #aa4b41;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 a:hover {
@@ -35,6 +41,7 @@ a:hover {
 
 h1 {
   margin: 0;
+  padding: 1rem;
 }
 
 h2, p {
@@ -49,10 +56,12 @@ h2, p {
 
 .project-link {
   border: 1px solid #2d3033;
-  margin: 2px;
 }
 
-
+.project-link a {
+  display: block;
+/*  background: pink;
+*/}
 
  /*Setting up the navigation bar*/
 .nav-sidebar {
@@ -91,14 +100,23 @@ h2, p {
   width: 90%;
 }
 
-li {
-  list-style-type: none;
-  text-align: center;
+#col-right li {
+  text-align: left;
+  padding-left: 3rem;
 }
 
-#col-right h3 {
+#col-right h4 {
   text-align: center;
   margin: 0;
   padding: 1rem;
   background: #aa4b41;
+  color: #d4dde1;
+}
+
+#col-main {
+  min-height: 80vh;
+}
+
+.project {
+  overflow: hidden;
 }

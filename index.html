@@ -33,7 +33,7 @@
 
 
     <div class="four columns" id="col-right">
-      <h3>Contact Me</h3>
+      <h4>Contact Me</h4>
       <img src="assets/noviny.jpg" alt="Me" id="me-image">
       <ul>
         <li><i class="fa fa-mobile"></i> Phone: 0425 234 619</li>
@@ -54,7 +54,7 @@
     <p>I love solving interesting problems in elegant ways, learning, and helping other learn, and have a background in philosophy and fiction writing.</p>
     <div class="skill-list">
       <div class="six columns skill-list" id="frontend">
-        <h3>Front End</h3>
+        <h4>Front End</h4>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -64,7 +64,7 @@
         </ul>
       </div>
       <div class="six columns skill-list" id="backend">
-        <h3>Back End</h3>
+        <h4>Back End</h4>
         <ul>
           <li>Ruby</li>
           <li>Rails</li>
@@ -95,14 +95,14 @@
 </script>
 
 <script src="#" type="html/template" id="project-template">
-  <div id="<%= name %>">
+  <div id="<%= name %>" class="project">
     <a href="<%= url %>"><%= name %></a>
     <p><%= screenshot %></p>
-    <h3>Why?</h3>
+    <h4>Why?</h4>
     <p><%= why %></p>
-    <h3>Key Lesson</h3>
+    <h4>Key Lesson</h4>
     <p><%= lesson %></p>
-    <h3>Further Development</h3>
+    <h4>Further Development</h4>
     <p><%= forLater %></p>
   </div></script>
 
@@ -113,6 +113,5 @@
   <script src="js/app.js"></script>
   <script src="js/routers/AppRouter.js"></script>
   <script src="js/views/ProjectView.js"></script>
-  <script src="js/views/ProjectTemplate.js"></script>
 </body>
 </html>
