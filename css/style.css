@@ -47,7 +47,10 @@ h2, p {
   width: 100%;
 }
 
-
+.project-link {
+  border: 1px solid #2d3033;
+  margin: 2px;
+}
 
 
 

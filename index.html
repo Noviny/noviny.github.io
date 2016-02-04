@@ -84,26 +84,32 @@
 <script src="#" type="html/template" id="projects-template">
   <div id="projectList">
     <ul>
-      <li><a href="" class="project-link" id="winlanewingame"> Win Lane, Win Game</a></li>
-      <li><a href="#" class="project-link" id="bookmarksplus">Bookmarks+</a></li>
-      <li><a href="#" class="project-link" id="moneyistime">Money is Time</a></li>
-      <li><a href="#" class="project-link" id="socialview">SocialView</a></li>
-      <li><a href="#" class="project-link">JS Jargon</a></li>
-      <li><a href="#" class="project-link">Final Project</a></li>
+      <li class="project-link"><a href="#" id="winlanewingame"> Win Lane, Win Game</a></li>
+      <li class="project-link"><a href="#" id="bookmarksplus">Bookmarks+</a></li>
+      <li class="project-link"><a href="#" id="moneyistime">Money is Time</a></li>
+      <li class="project-link"><a href="#" id="socialview">SocialView</a></li>
+      <li class="project-link"><a href="#" id="jsjargon">JS Jargon</a></li>
+      <li class="project-link"><a href="#" id="">Final Project</a></li>
     </ul>
   </div>
 </script>
 
 <script src="#" type="html/template" id="project-template">
-  div id=""
-</script>
-
-
-
+  <div id="<%= name %>">
+    <a href="<%= url %>"><%= name %></a>
+    <p><%= screenshot %></p>
+    <h3>Why?</h3>
+    <p><%= why %></p>
+    <h3>Key Lesson</h3>
+    <p><%= lesson %></p>
+    <h3>Further Development</h3>
+    <p><%= forLater %></p>
+  </div></script>
 
   <script src="js/lib/jquery.js"></script>
   <script src="js/lib/underscore.js"></script>
   <script src="js/lib/backbone.js"></script>
+  <script src="js/projectData.js"></script>
   <script src="js/app.js"></script>
   <script src="js/routers/AppRouter.js"></script>
   <script src="js/views/ProjectView.js"></script>
