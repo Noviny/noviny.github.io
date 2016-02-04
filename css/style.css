@@ -1,0 +1,101 @@
+* {
+font-family: 'Sorts Mill Goudy', serif;
+box-sizing: border-box;
+}
+
+body {
+  background-color: #335252;
+  margin: 0;
+  color: #2d3033;
+}
+
+a {
+  color: #aa4b41;
+}
+
+a:hover {
+  color: #77180e;
+}
+
+#header {
+  text-align: center;
+  background: #aa4b41;
+  color: #d4dde1;
+}
+
+.columns {
+  background: #d4dde1;
+  height: 100%;
+}
+
+.skill-list {
+  height: 100%;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2, p {
+  padding: 1rem;
+  text-align: center;
+}
+
+
+#me-image {
+  width: 100%;
+}
+
+
+
+
+
+ /*Setting up the navigation bar*/
+.nav-sidebar {
+  background-color: #aa4b41;
+}
+
+.nav-sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #aa4b41;
+}
+
+.nav-sidebar li {
+    float: left;
+    width: 50%;
+    margin: 0;
+}
+
+.nav-sidebar li a {
+    display: block;
+    color: #d4dde1;
+    text-align: center;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.active {
+  background-color: #77180e;
+}
+
+
+.container {
+  margin-top: 3rem;
+  width: 90%;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+}
+
+#col-right h3 {
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
+  background: #aa4b41;
+}

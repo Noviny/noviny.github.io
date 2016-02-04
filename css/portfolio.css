@@ -1,11 +1,41 @@
 * {
 font-family: 'Sorts Mill Goudy', serif;
+box-sizing: border-box;
 }
 
 body {
   background-color: #335252;
   margin: 0;
   color: #2d3033;
+}
+
+h1 {
+  margin: 0.7rem 0;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  padding: 0.3rem;
+  color: #d4dde1;
+}
+
+h3 {
+  text-align: center;
+  color: #d4dde1;
+  margin: 2rem 0;
+}
+
+a {
+  color: #aa4b41;
+}
+
+a:hover {
+  color: #77180e;
+}
+
+#me-image {
+  width: 30%;
 }
 
 .nav-top {
@@ -16,28 +46,9 @@ body {
   color: #d4dde1;
 }
 
-.nav-sidebar {
-  background-color: #aa4b41;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.nav-sidebar li {
-  display: inline-block;
-/*    display: block;
-*/  width: 32.5%;
-  text-align: center;
-  padding: 1rem 0rem;
-  text-decoration: none;
-  color: #d4dde1;
-}
-
 .nav-top li {
   display: inline-block;
-  padding: 0 1rem;
-/*  background-color: #763626;
-*/  
+  padding: 0 1rem; 
 }
 
 .nav-top a {
@@ -49,18 +60,41 @@ body {
   color: #d4dde1;
 }
 
+.nav-sidebar {
+  background-color: #aa4b41;
+  height: 60px;
+}
+
 .nav-sidebar ul {
-  padding: 0;
-  margin: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #aa4b41;
 }
 
-.nav-sidebar li:hover {
+.nav-sidebar li {
+    float: left;
+    width: 33.3%;
+}
+
+.nav-sidebar li a {
+    display: block;
+    color: #d4dde1;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-sidebar li a:hover {
     background-color: #913228;
-
 }
+
+
 
 .selected-nav {
-    background-color: #77180e;
+  background-color: #77180e;
 
 }
 
@@ -71,7 +105,7 @@ body {
   margin: auto;
 }
 
-#contact, #skills{
+#column1, #column2 {
   background-color: #d4dde1;
   width: 48%;
   height: 700px;
@@ -85,6 +119,10 @@ body {
   text-align: center;
 }
 
+.skill-list {
+  text-align: center;
+}
+
 #contact ul {
   list-style-type: none;
   padding: 0;
@@ -92,7 +130,7 @@ body {
 }
 
 #contact li {
-  height: 15%;
+  height: 12%;
   vertical-align: middle;
 }
 
@@ -113,42 +151,15 @@ body {
   display: inline-block;
 }
 
-h3 {
-  text-align: center;
-  color: #d4dde1;
-  margin: 2rem 0;
-}
-
-h2 {
-  margin: 0;
-  text-align: center;
-  padding: 0.3rem;
-  color: #d4dde1;
-}
-
-h1 {
-  margin: 0.7rem 0;
-}
-
 #skills h3, #skills h2 {
   color: #2d3033;
 }
 
-a {
-  color: #aa4b41;
+#projectList li {
+  display: block;
+  display: list-item;
+  padding: 1rem;
 }
-
-a:hover {
-  color: #77180e;
-}
-
-/*Colour options:
-
-Modern Urban
-sunshine (highlight) f9ba32
-steel blue (background) 426e86
-bone (text) f8f1e5
-coal (div) 2f3131*/
 
 /*San Fran bridge
 Stormy Sea (background) 335252
