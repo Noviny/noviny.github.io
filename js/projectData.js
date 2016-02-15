@@ -45,8 +45,18 @@ app.projectData = {
     "name": "JS Jargon",
     "url": "https://github.com/Noviny/socialview",
     "screenshot": "A screenshot url in an image tag",
+    "what": "A tool to help new developers find out what terms mean quickly.",
     "why": "There is a lot of jargon used in programming, and we should be looking for ways to make this more accessible.",
     "lesson": "This was my first time building an app in node, and this greatly enhanced my understanding of it, and gave me a strong base to compare working in node to working on rails.",
     "forLater": "Integrate the twitter streaming API."
+  },
+
+  "mentormore": {
+    "name": "Mentor More",
+    "url": "https://github.com/Noviny/mentormore",
+    "what": "This is a tool to connect more senior and junior people in any industry, to enable the senior people to share their wisdom, knowledge and skills.",
+    "why": "There is a large and ever-growing pool of people who are either retired or near retirement, who still have a lot to offer to more inexperienced workers.  This pool of people are often underutilised, as well as being disconnected from the community.   If we can connect the more senior people with junior people, we can beneift both of these groups.  The juniors would receive the benefit of mentoring from the senior people, and the senior people would benefit from the social connection.",
+    "lesson": "A project that looks simpler is not necessarily so, and often requires a greater degree of focus to deliver the best product possible.",
+    "forLater": "Integrate live chat, likely using Faye."
   }
 };
