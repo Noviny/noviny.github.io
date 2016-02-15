@@ -71,6 +71,31 @@ h2, p {
   background-position: center
 }
 
+#winlanewingame {
+  background-image: url(../assets/winlane-screencap.png);
+}
+
+#bookmarksplus {
+  background-image: url(../assets/bookmarksplus-screencap.png);
+}
+
+#moneyistime {
+  background-image: url(../assets/moneyistime.png);
+}
+
+#socialview {
+  background-image: url(../assets/socialview-screencap.png);
+}
+
+#jsjargon {
+  background-image: url(../assets/js-jargon.png);
+}
+
+#mentormore {
+  background-image: url(../assets/mentormore-screencap.png);
+}
+
+
  /*Setting up the navigation bar*/
 .nav-sidebar {
   background-color: #aa4b41;
