@@ -1,9 +1,6 @@
-* {
+body {
   font-family: 'Sorts Mill Goudy', serif;
   box-sizing: border-box;
-}
-
-body {
   background-color: #335252;
   margin: 0;
   color: #2d3033;
@@ -63,16 +60,21 @@ h2, p {
 
 .expand-project {
   display:block;
-  height: 25vh;
-  padding-top: 10vh;
+  height: 16vh;
+  padding-top: 11vh;
   background-image: url("https://placebear.com/g/200/300");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center
 }
 
+.project a {
+  font-size: 2rem;
+}
+
 #winlanewingame {
   background-image: url(../assets/winlane-screencap.png);
+  color: white;
 }
 
 #bookmarksplus {
@@ -85,10 +87,12 @@ h2, p {
 
 #socialview {
   background-image: url(../assets/socialview-screencap.png);
+  color: black;
 }
 
 #jsjargon {
   background-image: url(../assets/js-jargon.png);
+  color: white;
 }
 
 #mentormore {
@@ -159,6 +163,7 @@ h2, p {
 
 .project {
   overflow: hidden;
+  padding-top: 1rem;
 }
 
 #projectList ul {

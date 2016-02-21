@@ -1,4 +1,3 @@
-
 var app = app || {}
 
 var thing;
@@ -10,13 +9,13 @@ app.ProjectView = Backbone.View.extend({
     'click .expand-project': 'displayProject'
   },
 
-  displayProject: function (e) {
+  displayProject: function(e) {
     e.preventDefault();
     console.log("YAMS");
 
     $(".project").animate({
       height: "0px"
-    }, 200, function () {
+    }, 200, function() {
       $(this).remove();
     });
 
@@ -34,7 +33,7 @@ app.ProjectView = Backbone.View.extend({
     $(parent).append($renderedTemplate);
   },
 
-  render: function () {
+  render: function() {
     console.log('integrated')
 
   }

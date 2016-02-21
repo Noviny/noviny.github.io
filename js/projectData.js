@@ -4,6 +4,7 @@ app.projectData = {
   "winlanewingame": {
     "name": "Win Lane, Win Game",
     "url": "https://github.com/Noviny/WinLane-WinGame",
+    "appUrl": "http://noviny.github.io/WinLane-WinGame/",
     "screenshot": "A screenshot url in an image tag",
     "what": "Dubbed 'Project 0', this was the first project I made at General Assembly. We were tasked with building a game. After building tic-tac-toe, I decided to design my own game to digitise.",
     "why": "I have designed a number of card games in the past, and the chance to play with the components of a computer was incredibly exciting. It forced me to invent all the javascript logic myself, which made me intimately familiar with lots of data-manipulation. Making a game that had asynchronous information share was a fun challenge.",
@@ -14,6 +15,7 @@ app.projectData = {
   "bookmarksplus": {
     "name": "Bookmarks+",
     "url": "https://github.com/Noviny/journal-maker",
+    "appUrl": "https://journal-maker-app.herokuapp.com/",
     "screenshot": "A screenshot url in an image tag",
     "what": "This app was built for 'project 1' at GA, and allows urls to be saved by a user in to 'books', which can then be sorted by 'chapter' and allow additional details to be added.",
     "why": "I have been frustrated several times by knowing that there is great content on the internet, but I cannot share it because the archives are too dense to send someone to. This project evolved into a general-purpose way to collect and share bookmarks, to try and distill the massive internet archives. Since the only information taken from a website are a title and a link, it can swiftly and legally allow someone to bind the equivalent of an academic journal for distribution.",
@@ -24,6 +26,7 @@ app.projectData = {
   "moneyistime": {
     "name": "Money Is Time",
     "url": "https://github.com/Noviny/money-is-time",
+    "appUrl": "http://noviny.github.io/money-is-time/",
     "screenshot": "A screenshot url in an image tag",
     "what": "This small app allows a person to find out their hourly rate from any kind of salary, and from there discover how many minutes or hours particular purchases take to earn. It can also allow you to stack multiple items to try and discover what you spend the most time earning.",
     "why": "I made this tiny tool over the Christmas break both to try and help people think about 'value' differently and to practice javascript after a large focus on ruby.",
@@ -34,6 +37,7 @@ app.projectData = {
   "socialview": {
     "name": "Social View",
     "url": "https://github.com/Noviny/socialview",
+    "appUrl": "http://social-view.herokuapp.com/",
     "screenshot": "A screenshot url in an image tag",
     "what": "'Project 2' was a group project, where I teamed up with three of my classmates to create a 'social map'. Using the instagram API and the twitter API, we could display recent photos and tweets on a map around a location, or around a search criteria.",
     "why": "This project was largely chosen as a way to push a range of development abilities, bringing together a complex project with people working on different parts of the codebase, working with three different APIs, and ",
@@ -44,6 +48,7 @@ app.projectData = {
   "jsjargon": {
     "name": "JS Jargon",
     "url": "https://github.com/Noviny/socialview",
+    "appUrl": "http://social-view.herokuapp.com/",
     "screenshot": "A screenshot url in an image tag",
     "what": "A tool to help new developers find out what terms mean quickly.",
     "why": "There is a lot of jargon used in programming, and we should be looking for ways to make this more accessible.",
@@ -54,6 +59,7 @@ app.projectData = {
   "mentormore": {
     "name": "Mentor More",
     "url": "https://github.com/Noviny/mentormore",
+    "appUrl": "http://mentormore.herokuapp.com/",
     "what": "This is a tool to connect more senior and junior people in any industry, to enable the senior people to share their wisdom, knowledge and skills.",
     "why": "There is a large and ever-growing pool of people who are either retired or near retirement, who still have a lot to offer to more inexperienced workers.  This pool of people are often underutilised, as well as being disconnected from the community.   If we can connect the more senior people with junior people, we can beneift both of these groups.  The juniors would receive the benefit of mentoring from the senior people, and the senior people would benefit from the social connection.",
     "lesson": "A project that looks simpler is not necessarily so, and often requires a greater degree of focus to deliver the best product possible.",
