@@ -47,8 +47,8 @@ app.projectData = {
 
   "jsjargon": {
     "name": "JS Jargon",
-    "url": "https://github.com/Noviny/socialview",
-    "appUrl": "http://social-view.herokuapp.com/",
+    "url": "https://github.com/Noviny/JS-jargon",
+    "appUrl": "https://js-jargon.herokuapp.com/",
     "screenshot": "A screenshot url in an image tag",
     "what": "A tool to help new developers find out what terms mean quickly.",
     "why": "There is a lot of jargon used in programming, and we should be looking for ways to make this more accessible.",
